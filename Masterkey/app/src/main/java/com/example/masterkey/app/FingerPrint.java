@@ -1,4 +1,4 @@
-package com.example.micpa.myapplication;
+package com.example.masterkey.app;
 
 
 import android.Manifest;
@@ -475,22 +475,22 @@ public class FingerPrint extends Context {
 
     @Override
     public int checkPermission(String permission, int pid, int uid) {
-        return 0;
+        return PackageManager.PERMISSION_DENIED;
     }
 
     @Override
     public int checkCallingPermission(String permission) {
-        return 0;
+        return PackageManager.PERMISSION_DENIED;
     }
 
     @Override
     public int checkCallingOrSelfPermission(String permission) {
-        return 0;
+        return PackageManager.PERMISSION_DENIED;
     }
 
     @Override
     public int checkSelfPermission(String permission) {
-        return 0;
+        return PackageManager.PERMISSION_DENIED;
     }
 
     @Override
